@@ -81,44 +81,30 @@ Adding paravirtualized network devices for both the VNets; that way, there will 
 ![26](./assets/image26.png)
 ![27](./assets/image27.png)
 
-29
+Accessing OPNsense via the web interface (via the 'wks' VM).
 ---
 
 ![29](./assets/image29.png)
 
-30
+Setting the DNS server to be my host (in the VMware NATwork).
 ---
 
 ![30](./assets/image30.png)
 
-31
+Setting IP address and gateway for the WAN interface of the firewall.
 ---
 
 ![31](./assets/image31.png)
 
-32
----
-
-![32](./assets/image32.png)
-
-33
+Setting IP address for the LAN interface of the firewall.
 ---
 
 ![33](./assets/image33.png)
 
-34
----
-
-![34](./assets/image34.png)
-
-35
+Setting IP address for the optional interface (the DMZ interface) of the firewall. 
 ---
 
 ![35](./assets/image35.png)
-
-36
----
-
 ![36](./assets/image36.png)
 
 37
