@@ -8,6 +8,9 @@ Installing sudo here for root privileges.
   
 ![2](./assets/image2.png)
 
+Adding a local user.
+---
+
 ![3](./assets/image3.png)
 
 ![4](./assets/image4.png)
