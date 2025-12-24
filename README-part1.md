@@ -13,6 +13,9 @@ Adding a local user.
 
 ![3](./assets/image3.png)
 
+Accessing Proxmox via the web. Also, I made an admin group in Proxmox to make it easier to delegate permissions.
+---
+
 ![4](./assets/image4.png)
 
 ![5](./assets/image5.png)
