@@ -75,20 +75,11 @@ Creating the second VM. This will be an OPNsense firewall.
 ![24](./assets/image24.png)
 ![25](./assets/image25.png)
 
-26
+Adding paravirtualized network devices for both the VNets; that way, there will be higher throughput and lower latency as compared to an emulated NIC.
 ---
 
 ![26](./assets/image26.png)
-
-27
----
-
 ![27](./assets/image27.png)
-
-28
----
-
-![28](./assets/image28.png)
 
 29
 ---
