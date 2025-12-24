@@ -35,7 +35,7 @@ Adding the local user to the admin group.
 ![6](./assets/image6.png)
 
 ---
-Making an ssh directory, to store keys.
+Making an SSH folder, to store keys.
 ---
 ---
 
@@ -82,7 +82,7 @@ Creating the first VM. It will be a 2019 version of Windows.
 ![17](./assets/image17.png)
 
 ---
-Making sure to to use the VirtIO driver for better performance.
+Making sure to use the VirtIO driver for better performance.
 ---
 ---
 
