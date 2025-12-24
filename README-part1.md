@@ -34,85 +34,45 @@ Using the Secure Copy Protocol to move my host key to the Proxmox VM, so I can S
 
 ![8](./assets/image8.png)
 
-Adding a DMZ (Demilitarized Zone) VLAN. This will be for the public facing VMs I will put in that subnet.
+Adding a DMZ (Demilitarized Zone) VNet. This will be for the public facing VMs I will put in that subnet.
 ---
 
 ![9](./assets/image9.png)
+
+Using the bridge device (vmbr0) to be able to connect VLANs.
+---
+
 ![10](./assets/image10.png)
 
-Adding an internal VLAN. This will be for the VMs that are not public facing.
+Adding an internal VNet. This will be for the VMs that are not public facing.
 ---
 
 ![11](./assets/image11.png)
 
-12
+Creating the first VM. It will be a 2019 version of Windows.
 ---
 
 ![12](./assets/image12.png)
-
-13
----
-
 ![13](./assets/image13.png)
-
-14
----
-
 ![14](./assets/image14.png)
-
-15
----
-
 ![15](./assets/image15.png)
-
-16
----
-
 ![16](./assets/image16.png)
-
-17
----
-
 ![17](./assets/image17.png)
 
-18
+Making sure to to use the VirtIO driver for better performance.
 ---
 
 ![18](./assets/image18.png)
 
-19
+Creating the second VM. This will be an OPNsense firewall.
 ---
 
 ![19](./assets/image19.png)
-
-20
----
-
 ![20](./assets/image20.png)
-
-21
----
-
 ![21](./assets/image21.png)
-
-22
----
-
 ![22](./assets/image22.png)
-
-23
----
-
 ![23](./assets/image23.png)
-
-24
----
-
 ![24](./assets/image24.png)
-
-25
----
-
 ![25](./assets/image25.png)
 
 26
