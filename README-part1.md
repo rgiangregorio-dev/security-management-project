@@ -19,32 +19,28 @@ Accessing Proxmox via the web. Also, I made an admin group in Proxmox to make it
 ![4](./assets/image4.png)
 ![5](./assets/image5.png)
 
-6
+Adding the local user to the admin group.
 ---
 
 ![6](./assets/image6.png)
 
-7
+Making an ssh directory, to store keys.
 ---
 
 ![7](./assets/image7.png)
 
-8
+Using the Secure Copy Protocol to move my host key to the Proxmox VM, so I can SSH into the Proxmox VM via my host.
 ---
 
 ![8](./assets/image8.png)
 
-9
+Adding a DMZ (Demilitarized Zone) VLAN. This will be for the public facing VMs I will put in that subnet.
 ---
 
 ![9](./assets/image9.png)
-
-10
----
-
 ![10](./assets/image10.png)
 
-11
+Adding an internal VLAN. This will be for the VMs that are not public facing.
 ---
 
 ![11](./assets/image11.png)
