@@ -107,92 +107,46 @@ Setting IP address for the optional interface (the DMZ interface) of the firewal
 ![35](./assets/image35.png)
 ![36](./assets/image36.png)
 
-37
+Creating a firewall rule to allow IPv4 traffic outbound from the DMZ.
 ---
 
 ![37](./assets/image37.png)
 
-38
----
-
-![38](./assets/image38.png)
-
-39
+Creating a firewall rule to reject IPv4 traffic outbound from the DMZ to the LAN. (IMPORTANT: Put the reject rule before the allow rule, so that the allow rule doesn't allow unwanted traffic to the LAN before it even sees the reject rule)
 ---
 
 ![39](./assets/image39.png)
-
-40
----
-
 ![40](./assets/image40.png)
-
-41
----
-
 ![41](./assets/image41.png)
 
-42
+Using the Linux container framework (LXC) to save some resources, as opposed to another VM. This container will be a web server. 
 ---
 
 ![42](./assets/image42.png)
-
-43
----
-
 ![43](./assets/image43.png)
-
-44
----
-
 ![44](./assets/image44.png)
-
-45
----
-
 ![45](./assets/image45.png)
-
-46
----
-
 ![46](./assets/image46.png)
 
-47
+Setting IP address and gateway; gateway must be DMZ interface of firewall.
 ---
 
 ![47](./assets/image47.png)
 
-48
----
-
-![48](./assets/image48.png)
-
-49
+Adding a local user to the web server.
 ---
 
 ![49](./assets/image49.png)
 
-50
+Implementing the web server using NGINX. 
 ---
 
 ![50](./assets/image50.png)
-
-51
----
-
 ![51](./assets/image51.png)
-
-52
----
-
 ![52](./assets/image52.png)
 
-53
+Here, I am defining a port forward to allow users outside the network to access the web server. It is created on the WAN interface of the firewall, and maps all HTTP traffic to the web server's IP address. This way, by going to the WAN interface of the firewall via the web, it will show the web server page.
 ---
 
 ![53](./assets/image53.png)
-
-54
----
-
 ![54](./assets/image54.png)
