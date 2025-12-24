@@ -3,8 +3,7 @@ I first had to boot from the Proxmox ISO image, and once it booted, I started ma
 
 ![1](./assets/image1.png)
 
----
-- installing sudo
+Installing sudo here for root privileges.
 ---
   
 ![2](./assets/image2.png)
