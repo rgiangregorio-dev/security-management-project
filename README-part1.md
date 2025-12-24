@@ -17,7 +17,6 @@ Accessing Proxmox via the web. Also, I made an admin group in Proxmox to make it
 ---
 
 ![4](./assets/image4.png)
-
 ![5](./assets/image5.png)
 
 ![6](./assets/image6.png)
