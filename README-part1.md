@@ -1,7 +1,6 @@
 ---
 I first had to boot from the Proxmox ISO image, and once it booted, I started making configuration changes. I was using NAT networking via VMware, so I used the virtual IP address of my host computer as the gateway.
 ---
----
 
 ![1](./assets/image1.png)
 
