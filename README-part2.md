@@ -12,49 +12,24 @@ Creating the initial domain controller.
 ![61](./assets/image61.png)
 
 ---
-62
+Installing Windows, and using the Desktop Experience for the server.
 ---
 ---
 
 ![62](./assets/image62.png)
-
----
-63
----
----
-
 ![63](./assets/image63.png)
-
----
-64
----
----
-
 ![64](./assets/image64.png)
-
----
-65
----
----
-
 ![65](./assets/image65.png)
 
 ---
-66
+Setting static IP address and the gateway.
 ---
 ---
 
 ![66](./assets/image66.png)
 
 ---
-67
----
----
-
-![67](./assets/image67.png)
-
----
-68
+Bringing up the domain.
 ---
 ---
 
