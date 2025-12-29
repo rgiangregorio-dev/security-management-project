@@ -164,6 +164,13 @@ Since both domain controllers will function as DNS servers, they can use the loc
 ![107](./assets/image107.png)
 
 ---
+I had an issue with changing the DNS settings on the OPNsense GUI, so I figured out a way to manually change it via a config file.
+---
+---
+
+![131](./assets/image131.png)
+
+---
 After changing the firewall's DNS servers to the domain controllers, the "wks" VM shows them as the DNS servers.
 ---
 ---
@@ -219,52 +226,13 @@ Creating a Windows Server Core VM. This VM doesn't have a GUI; everything is don
 ![128](./assets/image128.png)
 ![129](./assets/image129.png)
 ![130](./assets/image130.png)
-
----
-131
----
----
-
-![131](./assets/image131.png)
-
----
-132
----
----
-
-![132](./assets/image132.png)
-
----
-133
----
----
-
-![133](./assets/image133.png)
-
----
-134
----
----
-
 ![134](./assets/image134.png)
 
 ---
-135
+For the "core" VM, setting hostname, IP address, and joining it to the domain.
 ---
 ---
 
 ![135](./assets/image135.png)
-
----
-136
----
----
-
 ![136](./assets/image136.png)
-
----
-137
----
----
-
 ![137](./assets/image137.png)
