@@ -106,63 +106,44 @@ These commands essentially set up the node certificates in a secure folder so th
 ![162](./assets/image162.png)
 
 ---
-163
+Checking status of wazuh-indexer, after enabling and starting it.
 ---
 ---
 
 ![163](./assets/image163.png)
 
 ---
-164
+This script sets up the initial security configuration for the Wazuh Indexer cluster, like creating built-in users (like admin), setting up roles and permissions, and configuring authentication and encryption between nodes.
 ---
 ---
 
 ![164](./assets/image164.png)
 
 ---
-165
+Validating that the Wazuh indexer is running and accessible.
 ---
 ---
 
 ![165](./assets/image165.png)
 
 ---
-166
----
----
-
-![166](./assets/image166.png)
-
----
-167
+Setting up the acutal Wazuh server and making sure it is running.
 ---
 ---
 
 ![167](./assets/image167.png)
-
----
-168
----
----
-
 ![168](./assets/image168.png)
 
 ---
-169
+Installing filebeat, a log aggregation tool.
 ---
 ---
 
 ![169](./assets/image169.png)
-
----
-170
----
----
-
 ![170](./assets/image170.png)
 
 ---
-171
+Editng the configuration file and setting the host value to the Wazuh server IP.
 ---
 ---
 
