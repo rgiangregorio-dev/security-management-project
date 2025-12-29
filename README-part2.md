@@ -34,223 +34,98 @@ Bringing up the domain.
 ---
 
 ![68](./assets/image68.png)
-
----
-69
----
----
-
 ![69](./assets/image69.png)
-
----
-70
----
----
-
 ![70](./assets/image70.png)
-
----
-71
----
----
-
 ![71](./assets/image71.png)
-
----
-72
----
----
-
 ![72](./assets/image72.png)
-
----
-73
----
----
-
 ![73](./assets/image73.png)
 
 ---
-74
+Going through AD configuration settings. The forest represents the entire AD environment.
 ---
 ---
 
 ![74](./assets/image74.png)
-
----
-75
----
----
-
 ![75](./assets/image75.png)
-
----
-76
----
----
-
 ![76](./assets/image76.png)
 
 ---
-77
+Since this is a domain controller now, the way to find users and groups is through AD. Here, I am adding a non-admin user account.
 ---
 ---
 
 ![77](./assets/image77.png)
-
----
-78
----
----
-
 ![78](./assets/image78.png)
 
 ---
-79
----
----
-
-![79](./assets/image79.png)
-
----
-80
----
----
-
-![80](./assets/image80.png)
-
----
-81
+Creating a specific admin account for the same user. This way, it is easier to see who is doing what, as opposed to users using the general domain admin account when admin rights are needed.
 ---
 ---
 
 ![81](./assets/image81.png)
 
 ---
-82
----
----
-
-![82](./assets/image82.png)
-
----
-83
----
----
-
-![83](./assets/image83.png)
-
----
-84
+To make the admin account have administrative privileges, go to the "Member Of" tab in the properties of that account. Then, add the user to the "Domain Admins" and "Enterprise Admins" groups.
 ---
 ---
 
 ![84](./assets/image84.png)
-
----
-85
----
----
-
 ![85](./assets/image85.png)
 
 ---
-86
+Right now, there is a forward lookup zone (mapping hostname to IP address), but no reverse lookup zone (mapping IP address to hostname). I am adding it here through the "DNS" AD app (Storing the zone in AD so that it can replicate to the second domain controller that I am going to set up).
 ---
 ---
 
 ![86](./assets/image86.png)
 
 ---
-87
+There is only one domain in the forest, so all of these options work the same.
 ---
 ---
 
 ![87](./assets/image87.png)
 
 ---
-88
+Choosing an IPv4 Reverse Lookup Zone.
 ---
 ---
 
 ![88](./assets/image88.png)
 
 ---
-89
+Entering in the network ID for the subnet (/24 mask, so no need to enter in anything for the fourth octet).
 ---
 ---
 
 ![89](./assets/image89.png)
 
 ---
-90
+Allowing only computers on the domain to update DNS records.
 ---
 ---
 
 ![90](./assets/image90.png)
 
 ---
-91
+I created reverse lookup zones for the DMZ and WAN subnets as well.
 ---
 ---
 
 ![91](./assets/image91.png)
 
 ---
-92
+Creating the secondary domain controller, for failover purposes.
 ---
 ---
 
 ![92](./assets/image92.png)
-
----
-93
----
----
-
 ![93](./assets/image93.png)
-
----
-94
----
----
-
 ![94](./assets/image94.png)
-
----
-95
----
----
-
 ![95](./assets/image95.png)
-
----
-96
----
----
-
 ![96](./assets/image96.png)
-
----
-97
----
----
-
 ![97](./assets/image97.png)
-
----
-98
----
----
-
 ![98](./assets/image98.png)
-
----
-99
----
----
-
-![99](./assets/image99.png)
 
 ---
 100
