@@ -1,138 +1,89 @@
 ---
-138
+Installing Proofpoint's ET (emerging threats) Pro edition. This provides OPNsense with the latest threat detection rules (I also downloaded os-intrusion-detection-content-et-open, I just didn't get a screenshot for it).
 ---
 ---
 
 ![138](./assets/image138.png)
 
 ---
-139
+Configuring Suricata (the network-based IDS).
 ---
 ---
 
 ![139](./assets/image139.png)
 
 ---
-140
+Enabling all of the rulesets (the Pro Telemetry ruleset, and the et-open ruleset).
 ---
 ---
 
 ![140](./assets/image140.png)
 
 ---
-141
+Showing that the telemetry token is valid.
 ---
 ---
 
 ![141](./assets/image141.png)
 
 ---
-142
+Adding a cronjob, so that rules will be automatically downloaded and updated.
 ---
 ---
 
 ![142](./assets/image142.png)
-
----
-143
----
----
-
 ![143](./assets/image143.png)
 
 ---
-144
+Creating a central Wazuh (host-based IDS) server.
 ---
 ---
 
 ![144](./assets/image144.png)
-
----
-145
----
----
-
 ![145](./assets/image145.png)
-
----
-146
----
----
-
 ![146](./assets/image146.png)
-
----
-147
----
----
-
 ![147](./assets/image147.png)
-
----
-148
----
----
-
 ![148](./assets/image148.png)
-
----
-149
----
----
-
 ![149](./assets/image149.png)
-
----
-150
----
----
-
 ![150](./assets/image150.png)
 
 ---
-151
+These commands download Wazuh's cert tool and a sample configuration file.
 ---
 ---
 
 ![151](./assets/image151.png)
 
 ---
-152
+Setting the correct IP address for the indexer, server, and dashboard. The indexer stores and manages the data. The server analyzes the data and detects threats and performs incident response. THe dashboard is a way to view the security data.
 ---
 ---
 
 ![152](./assets/image152.png)
 
 ---
-153
+Generating certificates for Wazuh.
 ---
 ---
 
 ![153](./assets/image153.png)
 
 ---
-154
----
----
-
-![154](./assets/image154.png)
-
----
-155
+Installing Wazuh's GPG key.
 ---
 ---
 
 ![155](./assets/image155.png)
 
 ---
-156
+Adding the repository.
 ---
 ---
 
 ![156](./assets/image156.png)
 
 ---
-157
+Installing the indexer package.
 ---
 ---
 
