@@ -128,220 +128,96 @@ Creating the secondary domain controller, for failover purposes.
 ![98](./assets/image98.png)
 
 ---
-100
+Setting hostname for the second domain controller.
 ---
 ---
 
 ![100](./assets/image100.png)
 
 ---
-101
----
----
-
-![101](./assets/image101.png)
-
----
-102
+Setting static IP address and DNS server (dc1) for dc2.
 ---
 ---
 
 ![102](./assets/image102.png)
 
 ---
-103
+Adding dc2 to the domain.
 ---
 ---
 
 ![103](./assets/image103.png)
 
 ---
-104
----
----
-
-![104](./assets/image104.png)
-
----
-105
+Adding dc2 to the existing domain.
 ---
 ---
 
 ![105](./assets/image105.png)
-
----
-106
----
----
-
 ![106](./assets/image106.png)
 
 ---
-107
+Since both domain controllers will function as DNS servers, they can use the localhost IP (themselves) and the other domain controller's IP as the DNS server addresses.
 ---
 ---
 
 ![107](./assets/image107.png)
 
 ---
-108
----
----
-
-![108](./assets/image108.png)
-
----
-109
----
----
-
-![109](./assets/image109.png)
-
----
-110
+After changing the firewall's DNS servers to the domain controllers, the "wks" VM shows them as the DNS servers.
 ---
 ---
 
 ![110](./assets/image110.png)
 
 ---
-111
+Joining "wks" to the domain.
 ---
 ---
 
 ![111](./assets/image111.png)
 
 ---
-112
+Back on the domain controller, I am creating two forward DNS lookups (and reverse lookups; "PTR record") for both the web server and the gateway (firewall).
 ---
 ---
 
 ![112](./assets/image112.png)
-
----
-113
----
----
-
 ![113](./assets/image113.png)
-
----
-114
----
----
-
 ![114](./assets/image114.png)
 
 ---
-115
+Adding a member server (not a domain controller).
 ---
 ---
 
 ![115](./assets/image115.png)
-
----
-116
----
----
-
 ![116](./assets/image116.png)
-
----
-117
----
----
-
 ![117](./assets/image117.png)
-
----
-118
----
----
-
 ![118](./assets/image118.png)
-
----
-119
----
----
-
 ![119](./assets/image119.png)
-
----
-120
----
----
-
 ![120](./assets/image120.png)
-
----
-121
----
----
-
 ![121](./assets/image121.png)
 
 ---
-122
+Setting static IP, DNS servers, and adding "srv" to the domain.
 ---
 ---
 
 ![122](./assets/image122.png)
-
----
-123
----
----
-
 ![123](./assets/image123.png)
 
 ---
-124
+Creating a Windows Server Core VM. This VM doesn't have a GUI; everything is done via a CLI.
 ---
 ---
 
 ![124](./assets/image124.png)
-
----
-125
----
----
-
 ![125](./assets/image125.png)
-
----
-126
----
----
-
 ![126](./assets/image126.png)
-
----
-127
----
----
-
 ![127](./assets/image127.png)
-
----
-128
----
----
-
 ![128](./assets/image128.png)
-
----
-129
----
----
-
 ![129](./assets/image129.png)
-
----
-130
----
----
-
 ![130](./assets/image130.png)
 
 ---
