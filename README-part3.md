@@ -225,158 +225,62 @@ Repeating steps for dc1, dc2, srv, and core.
 ![188](./assets/image188.png)
 
 ---
-189
+Setting up Wazuh on OPNsense.
 ---
 ---
 
 ![189](./assets/image189.png)
 
 ---
-190
+Downloading Sysmon, a Windows tool that collects system and security events.
 ---
 ---
 
 ![190](./assets/image190.png)
 
 ---
-191
+After adding some settings to ossec.conf in each VM with a Wazuh agent, I am copying these two .xml file rules to /var/ossec/etc/rules/local_rules.xml.
 ---
 ---
 
 ![191](./assets/image191.png)
-
----
-192
----
----
-
 ![192](./assets/image192.png)
 
 ---
-193
+Restarting so the rules can take effect.
 ---
 ---
 
 ![193](./assets/image193.png)
 
 ---
-194
+This shows alerts related to dc1. I am adding two filters to show successful and unsuccessful authentication attempts.
 ---
 ---
 
 ![194](./assets/image194.png)
-
----
-195
----
----
-
 ![195](./assets/image195.png)
 
 ---
-196
+This filter will help to analyze installed software.
 ---
 ---
 
 ![196](./assets/image196.png)
 
 ---
-197
+This is adding that filter to the Wazuh visualizer so I can use it in the future.
 ---
 ---
 
 ![197](./assets/image197.png)
 
 ---
-198
+Wazuh is performing an assessment of the "wks" OS; it is giving a list of things that passed and failed against a benchmark.
 ---
 ---
 
 ![198](./assets/image198.png)
-
----
-199
----
----
-
-![199](./assets/image199.png)
-
----
-200
----
----
-
-![200](./assets/image200.png)
-
----
-201
----
----
-
-![201](./assets/image201.png)
-
----
-202
----
----
-
-![202](./assets/image202.png)
-
----
-203
----
----
-
-![203](./assets/image203.png)
-
----
-204
----
----
-
-![204](./assets/image204.png)
-
----
-205
----
----
-
-![205](./assets/image205.png)
-
----
-206
----
----
-
-![206](./assets/image206.png)
-
----
-207
----
----
-
-![207](./assets/image207.png)
-
----
-208
----
----
-
-![208](./assets/image208.png)
-
----
-209
----
----
-
-![209](./assets/image209.png)
-
----
-210
----
----
-
-![210](./assets/image210.png)
 
 ---
 211
