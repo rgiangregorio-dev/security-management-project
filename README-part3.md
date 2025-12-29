@@ -87,41 +87,22 @@ Installing the indexer package.
 ---
 ---
 
-![157](./assets/image157.png)
-
----
-158
----
----
-
 ![158](./assets/image158.png)
 
 ---
-159
+Configuring the Wazuh indexer so that only connections from the Wazuh server will be able to reach the indexer.
 ---
 ---
 
 ![159](./assets/image159.png)
 
 ---
-160
+These commands essentially set up the node certificates in a secure folder so the Wazuh Indexer can safely communicate over the network using encrypted connections.
 ---
 ---
 
 ![160](./assets/image160.png)
-
----
-161
----
----
-
 ![161](./assets/image161.png)
-
----
-162
----
----
-
 ![162](./assets/image162.png)
 
 ---
