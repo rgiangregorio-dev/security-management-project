@@ -143,129 +143,85 @@ Installing filebeat, a log aggregation tool.
 ![170](./assets/image170.png)
 
 ---
-Editng the configuration file and setting the host value to the Wazuh server IP.
+Editng the filebeat configuration file and setting the host value to the Wazuh server IP.
 ---
 ---
 
 ![171](./assets/image171.png)
 
 ---
-172
+Here, I am creating a filebeat keystore so that credentials can be stored securely. I am adding default credentials, but will change later.
 ---
 ---
 
 ![172](./assets/image172.png)
 
 ---
-173
+Installing the Wazuh module for filebeat.
 ---
 ---
 
 ![173](./assets/image173.png)
 
 ---
-174
+After I deployed certificates (similar to the Wazuh indexer), I enabled and started the service, and confirmed it is running and working as expected.
 ---
 ---
 
 ![174](./assets/image174.png)
-
----
-175
----
----
-
 ![175](./assets/image175.png)
 
 ---
-176
----
----
-
-![176](./assets/image176.png)
-
----
-177
----
----
-
-![177](./assets/image177.png)
-
----
-178
+Installing the Wazuh dashboard.
 ---
 ---
 
 ![178](./assets/image178.png)
 
 ---
-179
+This makes the dashboard connect to the indexer running on the Wazuh server.
 ---
 ---
 
 ![179](./assets/image179.png)
 
 ---
-180
+Deploying the certificates for the dashboard, starting the service, and checking status of service.
 ---
 ---
 
 ![180](./assets/image180.png)
-
----
-181
----
----
-
 ![181](./assets/image181.png)
 
 ---
-182
+Accessing the Wazuh dashboard via the "wks" VM.
 ---
 ---
 
 ![182](./assets/image182.png)
 
 ---
-183
+Deploying a new agent on "wks".
 ---
 ---
 
 ![183](./assets/image183.png)
 
 ---
-184
+This registers the agent as a service so that it starts at boot time on Windows.
 ---
 ---
 
 ![184](./assets/image184.png)
 
 ---
-185
+Repeating steps for dc1, dc2, srv, and core.
 ---
 ---
 
 ![185](./assets/image185.png)
-
----
-186
----
----
-
 ![186](./assets/image186.png)
-
----
-187
----
----
-
 ![187](./assets/image187.png)
-
----
-188
----
----
-
 ![188](./assets/image188.png)
 
 ---
